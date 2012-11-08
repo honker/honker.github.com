@@ -8,15 +8,30 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 -->
-    <title>Honker</title>
+    <script type="text/javascript" src="stylesheets/jquery-1.6.3.min.js"></script>
+    <title>Ubuntu Home</title>
   </head>
   <body>
-      <!--<header>-->
-      <div class="container">
-        <h1>Honker@github.com</h1>
-        <h2>Honker's Page</h2>
-      </div>
-      <!--</header>-->
+    <header>
+        <div id="headerTop">
+          <div class="container">
+            <div id="headerTopLeft">
+              <h1>Ubuntu Home</h1>
+            </div>
+            <div id="headerTopRight">
+              <input type="input" width="100px" />
+              <input id="search" type="button" width="10px" value="%" />
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+        <div id="headerMenu">
+            <div class="container">
+
+            </div>
+        </div>
+    </header>
 
     <div class="container">
       <section id="main_content">
@@ -24,31 +39,59 @@
 
         <p><a href="http://www.ubuntuhome.com">UbuntuHome</a></p>
         <p><strong>Bold</strong> <em>i</em></p>
-        <p><code>
-        #include <stdio.h>
-        int main() {
-            printf("Hello Ubuntu!");
-         } 
-        
-        </code></p>
+        <p>
+          <pre>
+          #include <stdio.h>
+          int main() {
+              printf("Hello Ubuntu!");
+          }
+          </pre>
+        </p>
 
         <ul>
             <li>list1</li>
             <li>list2</li>
             <li>list3</li>
+            <li>list1</li>
+            <li>list3</li>
+            <li>list1</li>
+            <li>list1</li>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list3</li>
+            <li>list1</li>
+            <li>list1</li>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list3</li>
+            <li>list1</li>
+            <li>list1</li>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list1</li>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list1</li>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list1</li>
+            <li>list1</li>
         </ul>
       </section>
     </div>
-
-    <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-        try {
-            var pageTracker = _gat._getTracker("UA-32649843-1");
-            pageTracker._trackPageview();
-        } catch(err) {}
-    </script>
+    <div id="bottom">
+      <div class="container">
+        <a href="#" onclick="$('html,body').animate({scrollTop: 0},900);"><div id="gotop">Top</div></a>
+        <div>
+        </div>
+        <span>Copyright © 2009-2012 <a href="http://www.ubuntuhome.com" target="_black" >Ubuntu Home</a>    </span>
+      </div>
+    </div>
   </body>
 </html>
